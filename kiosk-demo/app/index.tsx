@@ -3,7 +3,7 @@ import { SafeAreaView, Text, View, TouchableOpacity, } from "react-native";
 
 export default function Page() {
     // View로 하면 화면의 최상단에 보여서 잘림 
-    // SafeArea : 안전구역, Text는 노치 영역 피해 컨텐츠 표시
+    // SafeArea : 안전구역, Text는 노치 영역 피해 컨텐츠 표시함.
     return <SafeAreaView style={{ 
         flex: 1, 
         justifyContent: 'center',
